@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.btn-get-episode {
+    color: white;
+    background-color: #2669de;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.btn-sort {
+    background-color: #f1dc02;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.container {
+    width: 350px;
+    height: 100px;
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #abaaa7;
+}
+
+.container__title {
+    margin-bottom: 10px;
+}
+
+.container__person {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.container__btn-count {
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.container__btn-delete {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
